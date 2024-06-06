@@ -1,0 +1,1 @@
+{"version":1,"defects":{"PHPDigTest::testDigA":8,"PHPDigTest::testDigAAAA":8},"times":{"PHPDigTest::testDigA":0.021,"PHPDigTest::testDigAAAA":0.018,"PHPDigTest::testDigNonexistant":0.018}}
