@@ -41,8 +41,7 @@ class PHPDig {
             if(strlen($ltrimed) <= 0)
                 continue;
             
-            $parts = preg_split('/\s+/', $line);
-
+            $parts = preg_split('/\t+/', $line, 5);
             $ret[] = array(
                 'name' => $parts[0], 'ttl' => $parts[1], 'class' => $parts[2], 'type' => $parts[3], 'record' => $parts[4]
             );
@@ -50,7 +49,6 @@ class PHPDig {
         
         return $ret;
     }
-
 
     protected function exec($args) {
         $baseArgs = self::BASE_ARGS;
