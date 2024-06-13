@@ -1,1 +1,1 @@
-{"version":1,"defects":{"PHPDigTest::testDigA":8,"PHPDigTest::testDigAAAA":8},"times":{"PHPDigTest::testDigA":0.023,"PHPDigTest::testDigAAAA":0.019,"PHPDigTest::testDigNonexistant":0.008}}
+{"version":1,"defects":{"PHPDigTest::testDigA":8,"PHPDigTest::testDigAAAA":8,"PHPDigTest::testDigTrace":8},"times":{"PHPDigTest::testDigA":0.02,"PHPDigTest::testDigAAAA":0.007,"PHPDigTest::testDigNonexistant":0.019,"PHPDigTest::testDigServer":0.052,"PHPDigTest::testDigTrace":6.213}}
